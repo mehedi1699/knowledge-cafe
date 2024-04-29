@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "cover_img": "https://i.ibb.co/KxyC7ts/flat-lay-workstation-with-copy-space-laptop.jpg",
+      "cover": "https://i.ibb.co/KxyC7ts/flat-lay-workstation-with-copy-space-laptop.jpg",
       "title": "The Enigma of Shadows",
       "author": "Emily Winter",
       "author_img": "https://i.ibb.co/17BXp34/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
@@ -11,7 +11,7 @@
     },
     {
       "id": "2",
-      "cover_img": "https://i.ibb.co/Y0RF82c/ady-teenagerinro-s-Q0x-Xx-Qdfe-Y-unsplash.jpg",
+      "cover": "https://i.ibb.co/Y0RF82c/ady-teenagerinro-s-Q0x-Xx-Qdfe-Y-unsplash.jpg",
       "title": "Echoes of Eternity",
       "author": "Samuel Blackwood",
       "author_img": "https://i.ibb.co/M58n2BS/aiony-haust-3-TLl-97-HNJo-unsplash.jpg",
@@ -21,7 +21,7 @@
     },
     {
       "id": "3",
-      "cover_img": "https://i.ibb.co/rbLfx4f/phil-desforges-IUrd-CYJm1u4-unsplash.jpg",
+      "cover": "https://i.ibb.co/rbLfx4f/phil-desforges-IUrd-CYJm1u4-unsplash.jpg",
       "title": "Whispers in the Wind",
       "author": "Grace Harper",
       "author_img": "https://i.ibb.co/tK2L1JJ/albert-dera-ILip77-Sbm-OE-unsplash.jpg",
@@ -31,7 +31,7 @@
     },
     {
       "id": "4",
-      "cover_img": "https://i.ibb.co/KrCPMC8/offscreen-magazine-io-Jrxd-QO4-ME-unsplash.jpg",
+      "cover": "https://i.ibb.co/KrCPMC8/offscreen-magazine-io-Jrxd-QO4-ME-unsplash.jpg",
       "title": "The Labyrinthine Conundrum",
       "author": "Benjamin Stone",
       "author_img": "https://i.ibb.co/17BXp34/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
@@ -41,7 +41,7 @@
     },
     {
       "id": "5",
-      "cover_img": "https://i.ibb.co/7b5QKGQ/szabo-viktor-rr-DL0i-Svc-Yc-unsplash.jpg",
+      "cover": "https://i.ibb.co/7b5QKGQ/szabo-viktor-rr-DL0i-Svc-Yc-unsplash.jpg",
       "title": "Chronicles of the Celestial Kingdom",
       "author": "Sophia Rivers",
       "author_img": "https://i.ibb.co/M58n2BS/aiony-haust-3-TLl-97-HNJo-unsplash.jpg",
