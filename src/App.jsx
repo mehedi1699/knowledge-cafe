@@ -9,18 +9,29 @@ import Header from './components/Header/Header'
 function App() {
 
 const [bookmarks,setBookmarks] =useState([])
+const [readingTime,setReadingTime] = useState(0)
 
 const handleAddToBookmark = blog =>{
   const newBookmarks = [...bookmarks, blog]
   setBookmarks(newBookmarks);
 }
 
+const handleMarkAsRead = (time,id) =>{
+  setReadingTime(readingTime + time);
+  // remove from bookmark
+  // console.log('remove bookmark',id)
+  const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id)
+  setBookmarks(remainingBookmarks)
+}
+
   return (
     <>
       <Header></Header>
       <div className='md:flex max-w-7xl mx-auto '>
-        <Blogs handleAddToBookmark = {handleAddToBookmark}></Blogs>
-        <BookMarks bookmarks ={bookmarks}></BookMarks>
+        <Blogs handleAddToBookmark = {handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
+        <BookMarks bookmarks ={bookmarks}
+        readingTime= {readingTime}
+        ></BookMarks>
       </div>
     </>
   )
